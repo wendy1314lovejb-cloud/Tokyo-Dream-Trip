@@ -1,5 +1,4 @@
-# -app
-<!DOCTYPE html>
+# 東京夢幻之旅-app
 <html lang="zh-TW">
 <head>
     <meta charset="UTF-8">
@@ -155,7 +154,6 @@
     </div>
 
     <div class="container">
-        <!-- 分頁 1: 行程 -->
         <div id="tab-itinerary" class="tab-content active">
             
             <div class="card">
@@ -259,7 +257,6 @@
             </div>
         </div>
 
-        <!-- 分頁 2: 工具 -->
         <div id="tab-tools" class="tab-content">
             <div class="card">
                 <h3 class="card-title">✈️ 航班資訊</h3>
@@ -277,7 +274,7 @@
                     <li><strong>期間：</strong>10/26 - 10/31 (共5晚)</li>
                     <li><span class="tag buy">🔖 入住憑證號碼：</span></li>
                 </ul>
-                <a href="https://maps.google.com/?q=D+Regalo+南行德" target="_blank" class="nav-btn-link" style="width: 100%; text-align: center; justify-content: center; box-sizing: border-box;">🚗 一鍵導航回飯店</a>
+                <a href="https://maps.app.goo.gl/6ouHWvNahBLUjwXb6" target="_blank" class="nav-btn-link" style="width: 100%; text-align: center; justify-content: center; box-sizing: border-box;">🚗 一鍵導航回飯店</a>
             </div>
 
             <div class="card">
@@ -291,7 +288,6 @@
             </div>
         </div>
 
-        <!-- 分頁 3: 預算 -->
         <div id="tab-budget" class="tab-content">
             <div class="card converter-box">
                 <h3 class="card-title" style="justify-content: center;">💱 匯率小算盤</h3>
@@ -318,7 +314,6 @@
 
     </div>
 
-    <!-- 底部導覽列 -->
     <div class="bottom-nav">
         <button class="nav-item active" onclick="switchTab('tab-itinerary', this)">
             <span class="nav-icon">📅</span>
